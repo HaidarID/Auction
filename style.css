@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+::-webkit-scrollbar { 
+    width: 0.5em; 
+    height: 3px;
+}
+::-webkit-scrollbar-track-piece { 
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    height: 50px; 
+    background-color:#666; border-radius: 1em;
+}
+
+
+html {
+    scroll-padding-top: 4rem;
+}
+
+body {
+    background-color: #202124;
+    font-family: Montserrat;
+    margin: 0;
+}
+
+* {
+    color: #e8eaed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.items div *:hover,
+.pagenav a:hover,
+.sidebar a:hover {
+    transition: background-color 0.2s;
+    background-color: #424242;
+}
+
+.items div *:active,
+.pagenav a:active,
+.sidebar a:active {
+    background-color: #303134;
+}

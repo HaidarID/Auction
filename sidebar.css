@@ -1,0 +1,42 @@
+.sidebar {  
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #303134;
+    width: 14em;
+    height: calc(100vh - 5em);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.sidebar div {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+
+.sidebar h3 {
+    margin: 0;
+    padding: 0.5em 0;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 0;
+    list-style: none;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.sidebar a {
+    display: block;
+    padding: 0.5em 1em;
+}

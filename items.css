@@ -1,0 +1,28 @@
+.items {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    margin: 5em 0 0 14em;
+    height: calc(100vh - 11em);
+    gap: 1em;
+}
+
+.items div{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.items div * {
+    display: flex;
+    background-color: #303134;
+    width: 100%;
+    height: calc(100% - 3em);
+    margin: 0;
+    padding: 1.5em 0;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}

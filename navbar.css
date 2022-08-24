@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: #303134;
+    height: 5em;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    
+}
+
+.logo {
+    width: 14em;
+}
+.logo a {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin: 0 1.5em;
+}
+
+.logo i {
+    font-size: 2em;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    width: 40%;
+    background-color: #202124;
+}
+
+.search {
+    border-style: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 0 1em;
+    outline: none;
+    color: #e8eaed;
+    font-size: 1em;
+
+}
+
+#search {
+    margin: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+#clear {
+    color: white;
+    border-right: 1px #303134 solid;
+    padding: 1em;
+    cursor: pointer;
+    visibility: hidden;
+}
